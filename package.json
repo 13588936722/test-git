@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/13588936722/test-git/issues"
   },
-  "homepage": "https://github.com/13588936722/test-git#readme"
+  "homepage": "https://github.com/13588936722/test-git#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0"
+  },
+  "husky":{
+    "hooks":{
+      "commit-msg":"commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
 }
