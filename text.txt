@@ -4,3 +4,5 @@
 测试commit --amend 命令
 
 测试下git 命令换行
+
+\\n实现
